@@ -1,0 +1,328 @@
+
+h1, h2, h3{
+  font-weight: 600;
+}
+
+body{
+  background-color: whitesmoke !important;
+}
+
+
+nav.navbar{
+  background: rgba(255, 255, 255, 0.18);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.0px);
+  -webkit-backdrop-filter: blur(3.0px);
+  background-color: rgb(253, 80, 80) !important;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.navbar-brand{
+  font-weight: bold;
+}
+
+a.navbar-brand{
+  color: white !important;
+  font-weight: bolder;
+  
+}
+
+ul.navbar-nav{
+  display: flex;
+}
+
+ul li a.navbar{
+  color: white !important;
+  padding: 8px 0;
+  text-align: center;
+}
+
+ul li a.drop{
+  color: black !important;
+}
+
+h1.text1{
+  text-align: center;
+  font-weight: bolder;
+  background-color: rgba(0, 0, 0, 0.500);
+  justify-content: center;
+}
+
+
+.img-head{
+  display: inline-block;
+  columns: auto;
+}
+
+/* style.css */
+.carousel-item h1 {
+  animation: fadeIn 2s ease-in-out;
+}
+
+.btn-animated {
+  transition: transform 0.2s;
+}
+
+.btn-animated:active {
+  transform: scale(0.95);
+}
+
+
+.kolom-awal{
+  background-color: rgb(253, 80, 80) !important;
+  border-radius: 16px;
+}
+
+
+.kolom-awal2{
+  background-color: rgba(0, 0, 0, 0.200);
+  border-radius: 16px;
+}
+
+.index-awal{
+  background-size: cover;
+}
+
+.judul-awal{
+  text-align: center;
+  font-weight: bold;
+}
+
+.text-kepsek{
+  text-align: justify;
+}
+
+
+.text-berita-awal{
+  margin-top: 50px;
+}
+
+.img-prestasi{
+  border-radius: 50%;
+}
+
+div.galeri-awal{
+  background: linear-gradient(rgba(0, 0,0,0.1), rgba(0,0,0,0.1)),url(/images/paskibra.jpeg) !important;
+  background-size: cover;
+}
+
+.text-galeri{
+  color: white !important;
+  background-color: rgba(0, 0, 0, 0.188) !important;
+  display: flex;
+  text-align: center;
+}
+
+.jabatan{
+  text-align: center;
+}
+
+.bg-galeri{
+  background-color:rgb(253, 80, 80) !important;
+}
+
+.bg-galeri1{
+  background-color: white !important;
+}
+
+h2.display-5{
+  font-weight: bolder;
+}
+
+h1.nama-osis{
+  font-size: 20px;
+  text-align: center;
+}
+
+.osis-awal{
+  background: linear-gradient(rgba(0, 0,0,0.1), rgba(0,0,0,0.1)),url(/images/gambar\ awal\ 3.png);
+  background-size: cover;
+}
+
+
+.footer{
+  background-color: rgb(253, 80, 80) !important;
+  z-index: 100;
+  bottom: 0;
+}
+
+
+
+h1.backjudul{
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: -50px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.173));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: var(--color-black);
+}
+
+h1.judul{
+  text-align: center;
+  position: relative;
+  font-weight: 700;
+  font-size: 48px;
+  color: red;
+}
+
+p.text-index{
+  padding-left:25px ;
+}
+
+
+.accordion-body h5{
+ border: none;
+}
+.accordion-body img{
+  width: 350px;
+  position: relative;
+  border-radius: 16px;
+  float: left;
+  padding-right: 2rem;
+}
+
+.btn{
+  background-color: darkgray;
+  color: black;
+  font-weight: 500;
+  border: none;
+}
+
+.btn:hover{
+  background-color: red;
+  color: black;
+  font-weight: 500;
+  border: none;
+}
+
+.card{
+  background-color: rgb(219, 219, 219) !important;
+}
+
+h1.backbasic{
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: -50px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.173));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+h1.basic{
+  text-align: center;
+  position: relative;
+  font-weight: 700;
+  font-size: 48px;
+  color: yellow;
+}
+
+.nav-item > .active{
+  color: rgb(255, 255, 255) !important;
+  font-weight: bold;
+ border-bottom:2px solid rgb(0, 0, 0)!important;
+ 
+}
+
+.nav-link:hover{
+  color: white !important;
+  border-bottom: 2px solid rgb(0, 0, 0) !important;
+  font-weight: bolder;
+ 
+}
+
+[data-bs-theme="dark"] nav {
+  background-color: grey !important;
+}
+
+[data-bs-theme="dark"] h1.judul {
+  color: yellow !important;
+}
+
+[data-bs-theme="dark"] h1.backjudul{
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: -50px;
+  background-image: linear-gradient(to top, rgba(199, 199, 199, 0), rgba(203, 203, 203, 0.173));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+[data-bs-theme="dark"] h1.backbasic{
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 800;
+  margin-bottom: -50px;
+  background-image: linear-gradient(to top, rgba(199, 199, 199, 0), rgba(203, 203, 203, 0.173));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+h5.deskripsi{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.brand:hover{
+  width: 400px;
+  height: 400px;
+  border: none;
+}
+
+.card img{
+  transition: 0.5s;
+}
+
+.card:hover img{
+  transform: scale(1.1);
+}
+
+.container-fluid img{
+  width: 50px;
+  height: 50px;
+  border-radius: 16px;
+  margin-right: 10px;
+}
+
+.carousel-inner{
+  border-radius: 16px;
+}
+
+.container-custom{
+  background-color: rgb(189, 189, 189);
+  border-radius: 16px;
+}
+
+[data-bs-theme="dark"] .container-custom{
+      background-color: rgb(63, 63, 63);
+      border-radius: 16px;
+}
+
+h1.btn-judul{
+  color:  rgb(255, 0, 0) !important;
+  font-size:large;
+}
+
+h1.btn-judul1{
+  color: red;
+  font-size: large;
+}
+
+
+ul li i.footer-teks{
+  color: black !important;
+  font-size:10px;
+  text-align: center;
+ }

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="images/logo sma.png">
+    <title>SMANSE</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            width: 100%;
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .btn-bd-primary {
+            --bd-violet-bg: #712cf9;
+            --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+            --bs-btn-font-weight: 600;
+            --bs-btn-color: var(--bs-white);
+            --bs-btn-bg: var(--bd-violet-bg);
+            --bs-btn-border-color: var(--bd-violet-bg);
+            --bs-btn-hover-color: var(--bs-white);
+            --bs-btn-hover-bg: #6528e0;
+            --bs-btn-hover-border-color: #6528e0;
+            --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+            --bs-btn-active-color: var(--bs-btn-hover-color);
+            --bs-btn-active-bg: #5a23c8;
+            --bs-btn-active-border-color: #5a23c8;
+        }
+
+        .bd-mode-toggle {
+            z-index: 1500;
+        }
+
+        .bd-mode-toggle .dropdown-menu .active .bi {
+            display: block !important;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="images/logo sma.png" alt class="img-fluid">
+            <a class="navbar-brand" href="#">SMANSE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="berita.html">Berita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="galeri.html">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="contact.html">Kontak</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Lainnya
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="osis.html">Osis</a></li>
+                            <li><a class="dropdown-item" href="ekstrakurikuler.html">Ekstarkurikuler</a></li>
+                            <li><a class="dropdown-item" href="#"></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="carousel-inner">
+            <div class="carousel-item active fade-in">
+              <img src="images/paskibra.jpeg" class="bd-placeholder-img d-block w-500 " width="100%"
+                aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="opacity: 1;">
+              <div class="container">
+                <div class="carousel-caption text-start">
+                  <h1 class="text1">Berita OF SMAN 1 SELEMADEG</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top rounded-circle" width="100%" height="100%"
+                                src="images/ketua osis.jpg" role="img" aria-label="Placeholder"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <div>
+                                <h1 class="nama-osis">
+                                    Ni Putu Vika Yunita <br>Apsari
+                                </h1>
+                                <p class="jabatan">Ketua Umum</p>
+                                <hr>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text kurang">"jangan pernah takut memulai sesuatu, masa muda perlu diisi
+                                    dengan
+                                    banyak relasi dan pengalaman"</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top rounded-circle" width="100%" height="100%"
+                                src="images/wakil ketua osis 1.jpg" role="img" aria-label="Placeholder: صورة مصغرة"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <div>
+                                <h1 class="nama-osis">
+                                    I Kadek Bayu Permana
+                                </h1>
+                                <p class="jabatan">Wakil Ketua 1</p>
+                                <hr>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">"Lembaran kertas kosong tidak akan terisi dengan
+                                    sendirinya.Mulailah untuk menerima,dengan segala pertimbangan"</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top rounded-circle" width="100%" height="100%"
+                                src="images/wakil ketua osis.jpg" role="img" aria-label="Placeholder: صورة مصغرة"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <div>
+                                <h1 class="nama-osis">
+                                    I Made <br>Pradnyananda <br> Arsha Putra
+                                </h1>
+                                <p class="jabatan">Wakil Ketua 2</p>
+                                <hr>
+                            </div>
+                            <div class="card-body">
+
+                                <p class="card-text">"Jika kita yakin dengan diri sendiri, maka semuanya akan menjadi
+                                    mungkin."</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top rounded-circle" width="100%" height="100%"
+                                src="images/sekretaris umum.jpg" role="img" aria-label="Placeholder: صورة مصغرة"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <div>
+                                <h1 class="nama-osis">
+                                    Angela <br> Dominique <br> Jimenez Therik
+                                </h1>
+                                <p class="jabatan">Sekretaris Umum</p>
+                                <hr>
+                            </div>
+                            <div class="card-body">
+
+                                <p class="card-text">"work hard in silence, <br> let success <br> be your noise"</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top rounded-circle" width="100%" height="100%"
+                                src="images/wakil sekretaris 1.jpg" role="img" aria-label="Placeholder: صورة مصغرة"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <div>
+                                <h1 class="nama-osis">
+                                    Luh Gede <br> Kezia <br> Arsa Pradnyani
+                                </h1>
+                                <p class="jabatan">Wakil Sekretaris 1</p>
+                                <hr>
+                            </div>
+                            <div class="card-body">
+
+                                <p class="card-text">"It's never too late <br> to be what you might have been" </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top rounded-circle" width="100%" height="100%"
+                                src="images/wakil sekretaris  2.jpg" role="img" aria-label="Placeholder: صورة مصغرة"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <div>
+                                <h1 class="nama-osis">
+                                    Ni Luh Gede Cantika Aurellya Lestari
+                                </h1>
+                                <p class="jabatan">Wakil Sekretaris 2</p>
+                                <hr>
+                            </div>
+                            <div class="card-body">
+
+                                <p class="card-text">"Disiplin memang sulit tetapi Indisiplin akan membuatmu sakit. Act
+                                    according to measure and stick to the rules"</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top rounded-circle" width="100%" height="100%"
+                                src="images/bendahara umum.jpg" role="img" aria-label="Placeholder: صورة مصغرة"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <div>
+                                <h1 class="nama-osis">
+                                    Gusti Ayu <br> Agung <br> Hardya Pramesti
+                                </h1>
+                                <p class="jabatan">Bendahara Umum</p>
+                                <hr>
+                            </div>
+                            <div class="card-body">
+
+                                <p class="card-text">"You Can Do It! Just because it’s hard, <br> doesn’t mean it’s
+                                    impossible."</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card shadow-sm">
+                            <img class="bd-placeholder-img card-img-top rounded-circle" width="100%" height="100%"
+                                src="images/wakil bendahara umum.jpg" role="img" aria-label="Placeholder: صورة مصغرة"
+                                preserveAspectRatio="xMidYMid slice" focusable="false">
+                            <title>Placeholder</title>
+                            <div>
+                                <h1 class="nama-osis">
+                                    Ida Ayu <br> Komang <br> Dewi Wulandari
+                                </h1>
+                                <p class="jabatan">Wakil Bendahara Umum</p>
+                                <hr>
+                            </div>
+                            <div class="card-body">
+
+                                <p class="card-text">"Imajinasi tanpa eksekusi <br> hanyalah <br> sebuah halusinasi."
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <nav class="blog-pagination" aria-label="Pagination">
+                <a class="btn btn-tetap btn-outline-primary rounded-pill" href="#">^</a>
+            </nav>
+        </div>
+
+    </main>
+
+
+
+
+
+
+
+
+    <div class="container-fluid footer">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap" />
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Company, Inc</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"> <a href="https://www.instagram.com/sman1selemadeg/"><i
+                            class="fa-brands footer-teks fa-instagram"> official</i></a></li>
+                <li class="ms-3"> <a href="https://www.instagram.com/osissmanse_/"><i
+                            class="fa-brands footer-teks fa-instagram"> osis</i></a></li>
+                <li class="ms-3"> <a href="https://www.instagram.com/genta.squad/"><i
+                            class="fa-brands footer-teks fa-instagram"> fansbase</i></a></li>
+            </ul>
+        </footer>
+    </div>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script> 
+    const imageAwal = document.querySelectorAll('.card'); 
+    imageAwal.forEach((img, i) => {
+      img.dataset.aos = 'flip-right';
+      img.dataset.aosDuration = 1000;
+      img.dataset.aosDelay = i * 100;
+    });
+    AOS.init();
+  </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

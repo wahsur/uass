@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="images/logo sma.png">
+  <title>SMANSE</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/index.rtl.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      width: 100%;
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    .btn-bd-primary {
+      --bd-violet-bg: #712cf9;
+      --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+      --bs-btn-font-weight: 600;
+      --bs-btn-color: var(--bs-white);
+      --bs-btn-bg: var(--bd-violet-bg);
+      --bs-btn-border-color: var(--bd-violet-bg);
+      --bs-btn-hover-color: var(--bs-white);
+      --bs-btn-hover-bg: #6528e0;
+      --bs-btn-hover-border-color: #6528e0;
+      --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+      --bs-btn-active-color: var(--bs-btn-hover-color);
+      --bs-btn-active-bg: #5a23c8;
+      --bs-btn-active-border-color: #5a23c8;
+    }
+
+    .bd-mode-toggle {
+      z-index: 1500;
+    }
+
+    .bd-mode-toggle .dropdown-menu .active .bi {
+      display: block !important;
+    }
+
+    /* Tambahan untuk animasi */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    .fade-in {
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .carousel-item h1 {
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    /* Animasi untuk button */
+    .btn-animated {
+      transition: transform 0.2s;
+    }
+
+    .btn-animated:active {
+      transform: scale(0.95);
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <img src="images/logo sma.png" alt class="logo img-fluid">
+      <a class="navbar-brand" href="#">SMANSE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto ">
+          <li class="nav-item me-3">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" aria-current="page" href="berita.html">Berita</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" aria-current="page" href="galeri.html">Galeri</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" aria-current="page" href="contact.html">Kontak</a>
+          </li>
+          <li class="nav-item dropdown me-3">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Lainnya
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="osis.html">Osis</a></li>
+              <li><a class="dropdown-item" href="ekstrakurikuler.html">Ekstarkurikuler</a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+  <main>
+
+    <div id="myCarousel" class="carousel slide mb-6 " data-bs-ride="carousel" data-bs-interval="3000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner text-center index-awal">
+        <div class="carousel-item active fade-in">
+          <img src="images/gambar awal1.png" class="bd-placeholder-img d-block w-500" width="1500"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false" style="opacity: 1;">
+          <div class="container">
+            <div class="carousel-caption d-md-block">
+              <h1 class="text1">Selamat Datang Di SMAN 1 Selemadeg</h1>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item fade-in">
+          <img src="images/gambar awal2.png" class="bd-placeholder-img d-block w-200" width="1500"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <div class="container">
+            <div class="carousel-caption d-md-block">
+              <h1 class="text1">Padmasana SMAN 1 Selemadeg</h1>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item fade-in">
+          <img src="images/gambar awal 3.png" class="bd-placeholder-img d-block w-150" width="1500"
+            aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <div class="container">
+            <div class="carousel-caption d-md-block text-end">
+              <h1 class="text1">Lapangan Upacara SMAN 1 Selemadeg</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev btn-animated" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next btn-animated" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  
+
+    <!-- Marketing messaging and featurettes
+  ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+     
+      <div class="row g-6 kolom-awal">
+        <div class="col-lg-4 fade-in">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/kepala sekolah.jpeg"
+            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" data-aos="fade-left" data-aos-duration=500>
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+          <h2 class="fw-normal">Kepala Sekolah</h2>
+          <p>I Made Wardita, S.Pd</p>
+        </div>
+        <div class="col-lg-4 fade-in">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/wakasek kesiswaan.jpg"
+            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" data-aos="fade-up" data-aos-duration=500 data-aos-delay = 100>
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+          <h2 class="fw-normal">Wakasek Kesiswaan</h2>
+          <p>Anak Agung Nyoman Wiryaduarsa, S.Si</p>
+        </div>
+        <div class="col-lg-4 fade-in">
+          <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="images/ketua osis.jpg"
+            role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" data-aos="fade-right" data-aos-duration=500 data-aos-delay = 200>
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
+          <h2 class="fw-normal">Ketua Osis</h2>
+          <p>Ni Putu Vika Yunita Afsari</p>
+        </div>
+      </div>
+    </div>
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="container">
+        <div class="row kolom-awal2">
+            <div class="col-md-8">
+                <h2 class="featurette-heading judul-awal fw-normal lh-1">Visi</h2>
+                <p class="text-index">Terwujudnya Insan SMAN 1 Selemadeg yang Berketuhanan, Berbudi Pekerti, Berbudaya, Berprestasi dan Berwawasan Global</p>
+                <h2 class="featurette-heading judul-awal fw-normal lh-1">Misi</h2>
+                <p class="text-index">
+                    1. Meningkatkan keimanan dan ketakwaan melalui pengalaman ajaran agama, <br>
+                    2. Mengoptimalkan penumbuhan, budi pekerti melalui kegiatan pembiasaan, pengembangan diri yang terencana dan bersinambungan,<br>
+                    3. Mengembangkan potensi budaya peserta didik melalui kegiatan intrakurikuler, kokurikuler, dan ekstrakurikuler,<br>
+                    4. Meningkatkan prestasi akademis dan nonakademis peserta didik melalui pembelajaran yang inovatif, klinik layanan studi, dan pengembangan bakat, minat, serta potensi peserta didik <br>
+                    5. Meningkatkan wawasan global peserta didik dan warga sekolah lainnya dengan penumbuhan budaya literasi, pemanfaatan sumber-sumber belajar, dan menjalin kerjasama dengan berbagai pihak yang peduli pendidikan.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/ramah anak.png" class="image img-fluid mx-auto d-block" width="100%"  alt="Placeholder">
+            </div>
+        </div>
+    
+        <hr class="featurette-divider">
+    
+        <div class="row kolom-awal2">
+            <div class="col-md-4 order-md-1">
+                <img src="images/logo sma.png" class="image img-fluid mx-auto d-block" width="100%" alt="Placeholder">
+            </div>
+            <div class="col-md-8 order-md-2">
+                <h2 class="featurette-heading judul-awal fw-normal lh-1">Tentang Sekolah</h2>
+                <p class="lead">
+                    Nama sekolah: SMA Negeri 1 Selemadeg <br>
+                    No Statistik Sekolah: 301220307020 <br>
+                    Alamat Sekolah: Jl. Gelogor, Desa Bajera, Kec. Selemadeg, Kabupaten Tabanan <br>
+                    NPSN: 50101122 <br>
+                    Kepala Sekolah: I Made Wardita, S.Pd. <br>
+                    Status Sekolah: Negeri <br>
+                    Akreditasi: A <br>
+                    Email: sman1.selemadeg@yahoo.co.id <br>
+                    Website: sman1selemadeg.sch.id <br>
+                    Telp/Fax: (0361) 4790176 <br>
+                    Jumlah Ruang Kelas: 24 <br>
+                    Jumlah Rombel: 24 <br>
+                    Waktu KBM: Pagi / 6 hari <br>
+                    Kurikulum: Kurikulum SMA 2013 dan Kurikulum Merdeka <br>
+                    Status Kepemilikan: Pemerintah Provinsi <br>
+                    Luas Tanah: 21.000m2 <br><br>
+                    SMA Negeri 1 Selemadeg terletak di Jalan Gelogor, Desa Bajera, Kecamatan Selemadeg, Kabupaten Tabanan. SMA Negeri 1 Selemadeg didirikan tanggal 17 Juli 1984 berdasarkan SK Menteri Pendidikan dan Kebudayaan Nomor 000558/0/1984. Sekolah ini merupakan SMA Negeri yang menempati urutan ketiga dalam sejarah berdirinya di Kabupaten Tabanan.
+                </p>
+            </div>
+        </div>
+    
+        <hr class="featurette-divider">
+    
+        <div class="row kolom-awal2">
+            <div class="col-md-7">
+                <h2 class="featurette-heading judul-awal fw-normal lh-1">Sambutan Kepala Sekolah</h2>
+                <p class="lead text-kepsek text-index">
+                    Puji syukur penulis panjatkan ke hadapan Tuhan Yang Maha Esa karena berkat rahmat Beliaulah isi website SMA Negeri 1 Selemadeg ini dapat diperbarui isinya. <br><br>
+                    Keberadaan website sekolah sangat penting pada era digitalisasi dan globalisasi ini. Dengan demikian SMA Negeri 1 Selemadeg akan berupaya agar eksistensi website-nya semakin berkualitas. Peningkatan kualitas yang dimaksudkan seperti keberagaman dan isi rubriknya dan aktualitas (kebaruan) isinya. Ini optimis dapat diwujudkan dengan menerapkan manajemen kolaboratif dengan tim sekolah dan tim khusus yang membidangi. <br><br>
+                    Website SMA Negeri 1 Selemadeg dijadikan media informasi, komunikasi, dan kreasi untuk warga sekolah. Sebagai media informasi diharapkan menyajikan beragam informasi yang dipandang perlu diketahui oleh warga sekolah, alumnus, dan masyarakat umum. Informasi tersebut seperti visi, misi, dan tujuan sekolah, program sekolah, dan prestasi akademis serta non akademis yang berhasil diraih peserta didik. <br><br>
+                    Sebagai media komunikasi dan kreasi, keberadaannya diharapkan dapat mewadahi penyampaian ide (opini) warga sekolah dan kreativitas atau karya warga sekolah yang dipandang layak dipublikasikan. <br><br>
+                    Mengingat pentingnya eksistensi website ini, diharapkan kepada semua pihak agar memberikan masukan untuk penyempurnaannya. Selamat menyimak sajian yang disampaikan pada website ini. Dan, sebagai akhir kata, penulis sampaikan terima kasih kepada semua pihak yang telah memberikan kontribusi sehingga terwujudnya isi website yang sangat sederhana ini. <br><br>
+                    Bajera, 8 Februari 2021 <br>
+                    Kepala SMAN 1 Selemadeg <br>
+                    I Made Wardita, S.Pd.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img src="images/kepala sekolah2.png" class="image img-fluid mx-auto d-block rounded-circle" width="100%" alt="Placeholder">
+            </div>
+        </div>
+   
+    
+    
+
+      <hr class="featurette-divider">
+      <div class="container">
+      <nav class="blog-pagination" aria-label="Pagination">
+        <a class="btn btn-tetap btn-outline-primary rounded-pill" href="#">^</a>
+        </nav>
+      </div>
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <div class="container-fluid footer">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24">
+            <use xlink:href="#bootstrap" />
+          </svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Company, Inc</span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"> <a href="https://www.instagram.com/sman1selemadeg/"><i class="fa-brands footer-teks fa-instagram"> official</i></a></li>
+        <li class="ms-3"> <a href="https://www.instagram.com/osissmanse_/"><i class="fa-brands footer-teks fa-instagram"> osis</i></a></li>
+        <li class="ms-3"> <a href="https://www.instagram.com/genta.squad/"><i class="fa-brands footer-teks fa-instagram"> fansbase</i></a></li>
+      </ul>
+    </footer>
+  </div>
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script> 
+    const imageAwal = document.querySelectorAll('.image'); 
+    imageAwal.forEach((img) => {
+      img.dataset.aos = 'fade-up';
+      img.dataset.aosDuration = 1000;
+    });
+    AOS.init();
+  </script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+    // JavaScript untuk mengatur animasi fade-in saat halaman dimuat
+    document.addEventListener("DOMContentLoaded", function () {
+      const fadeIns = document.querySelectorAll('.fade-in');
+      fadeIns.forEach((el, index) => {
+        setTimeout(() => {
+          el.classList.add('show');
+        }, index * 200); // Memberikan delay 200ms antara setiap elemen
+      });
+    });
+
+    // JavaScript untuk mengatur animasi klik pada tombol
+    document.querySelectorAll('.btn-animated').forEach(button => {
+      button.addEventListener('click', () => {
+        button.classList.add('clicked');
+        setTimeout(() => {
+          button.classList.remove('clicked');
+        }, 200);
+      });
+    });
+  </script>
+</body>
+
+</html>

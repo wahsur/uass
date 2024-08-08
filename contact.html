@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="images/logo sma.png">
+  <title>SMANSE</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <img src="images/logo sma.png" alt class="img-fluid">
+          <a class="navbar-brand" href="#">SMANSE</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="berita.html">Berita</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="galeri.html">Galeri</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html">Kontak</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Lainnya
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="osis.html">Osis</a></li>
+                  <li><a class="dropdown-item" href="ekstrakurikuler.html">Ekstarkurikuler</a></li>
+                  <li><a class="dropdown-item" href="#"></a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container mt-5">
+        <h1 class="backjudul">Contact SMANSE</h1>
+        <H1 class="judul">Contact SMANSE</H1>
+        <form class="row g-3 mt-5">
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Alamat</label>
+                <input type="text" class="form-control" id="inputAddress" >
+            </div>
+            <div class="col-12">
+                <label for="inputAddress2" class="form-label"> Alamat Lengkap</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Jalan, Gang, atau No rumah">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">Kecamatan</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">Kabupaten/Kota</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>Jembrana</option>
+                    <option>Tabanan</option>
+                    <option>Denpasar</option>
+                    <option>Badung</option>
+                    <option>Gianyar</option>
+                    <option>Klungkung</option>
+                    <option>Karangasem</option>
+                    <option>Singaraja</option>
+                </select>
+            </div>
+            <div class="col-md-2">
+                <label for="inputZip" class="form-label">Provinsi</label>
+                <input type="text" class="form-control" placeholder="Bali" >
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Check me out
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign
+                    in</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Sign In</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Are you sure?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary"><a
+                            href="https://tokopedia.link/3IEDEzN4pKb">Send</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="blog-pagination" aria-label="Pagination">
+      <a class="btn btn-tetap btn-outline-primary rounded-pill" href="#">^</a>
+      </nav>
+
+    <div class="container-fluid footer">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24">
+                <use xlink:href="#bootstrap" />
+              </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2024 Company, Inc</span>
+          </div>
+    
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"> <a href="https://www.instagram.com/sman1selemadeg/"><i class="fa-brands footer-teks fa-instagram"> official</i></a></li>
+            <li class="ms-3"> <a href="https://www.instagram.com/osissmanse_/"><i class="fa-brands footer-teks fa-instagram"> osis</i></a></li>
+            <li class="ms-3"> <a href="https://www.instagram.com/genta.squad/"><i class="fa-brands footer-teks fa-instagram"> fansbase</i></a></li>
+          </ul>
+        </footer>
+      </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
